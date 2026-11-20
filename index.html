@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="caixa-header">
+        <img src="./logo-header.png" alt="logo-cabecalho" class="logo-header">
+        <a >Home</a>
+        <a onclick="cliqueiNoBotao()">Fale Conosco</a>
+        <a href="./servicos.html">Nossos Serviços</a>
+    </div>
+    <div class="caixa-principal">
+        <div class="div1">
+            <img src="./logo.png" alt="logo-mario-bros" class="logo">
+
+
+            <p>🔧 Encanadores Mario e Luigi - Resolvendo seus problemas hidráulicos com estilo! 🔧
+
+            </p>
+            <p>
+                Você já se encontrou com um cano entupido ou uma torneira pingando? Não se preocupe, os irmãos Mario e
+                Luigi
+                estão aqui para salvar o dia! Com suas habilidades de encanamento lendárias, eles vão consertar qualquer
+                problema hidráulico que você tenha. Seja um vazamento, um entupimento ou uma instalação complicada, eles
+                têm as
+                ferramentas e a experiência para resolver tudo com eficiência e rapidez. Então, se você precisa de ajuda
+                com
+                seus canos, não hesite em chamar os encanadores mais famosos do mundo dos cogulelos!
+            </p>
+
+            <button onclick="cliqueiNoBotao()">entrar em contato</button>
+        </div>
+
+        <div class="div2">
+            <img src="./mario-luigi.png" alt="Mario e Luigi" class="mario-luigi">
+        </div>
+    </div>
+    <div class="caixa-video">
+        <video src="./video.mp4" type="video/mp4" autoplay loop muted>
+        </video> 
+        <div class="mascara"></div>
+    </div>
+
+<div class="caixa-whatsapp"> 
+            <a href="https://w.app/bawa2f" target="_blank" class="link-whatsapp">
+                <img src="./whatsapp.png" alt="logo-whatsapp" class="logo-whatsapp" width="50px">
+            </a>
+        </div>
+        <form 
+        class="formulario"
+        action="https://formcarry.com/s/1v1902h_kll"
+        method="POST"
+        enctype="multipart/form-data"
+        >
+            <input placeholder="Seu Nome" type="text" name="Nome"/>
+            <input placeholder="Telefone" type="tel" name="Telefone"/>
+            <textarea placeholder="Digite seu problema aqui..." name="Problema"></textarea>
+            <button>Pedir Orçamento</button>
+        </form>
+<div class="mascara-formulario" onclick="cliqueiNaMascara()"></div> 
+
+</body>
+<script src="./scripts.js"></script>
+</html>
